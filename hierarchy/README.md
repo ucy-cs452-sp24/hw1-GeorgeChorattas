@@ -1,6 +1,6 @@
 # Comments about HW1 results 
-In this Homework we had to study the memory and storage hierarchy in the data center.
-**For this assignment i selected The CloudLab cluster at the University of Wisconsin**
+In this Homework we had to study the memory and storage hierarchy in the data center. <br />
+**For this assignment i selected The CloudLab cluster at the University of Wisconsin** <br />
 The 2 nodes i used was type **c220g5** with the following characteristics :
   * CPU : Two Intel Xeon Silver 4114 10-core CPUs at 2.20 GHz
   * RAM : 192GB ECC DDR4-2666 Memory
