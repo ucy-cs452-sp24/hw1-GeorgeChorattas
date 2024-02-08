@@ -9,7 +9,7 @@ The 2 nodes i used was type **c220g5** with the following characteristics :
   * GPU : One NVIDIA 12GB PCI P100 GPU
 
 ## Comments on the results 
-
+![image](https://github.com/ucy-cs452-sp24/hw1-GeorgeChorattas/blob/main/hierarchy/measures_graph.png?raw=true)
 ### Gapicity (GB)
 Since we have 2 identical nodes of type **c220g5** the have the same campacities :
  1. Local DRAM : 187 GB
@@ -27,9 +27,6 @@ When calculating the Network Bandwidth, we found it to be 428 MB/s. This value p
 ## Conclusion
 The findings from our analysis lead to a noteworthy conclusion regarding the efficiency of accessing remote DRAM compared to local disk storage. It is evident that reaching out to remote DRAM is more advantageous, as it offers higher bandwidths, with the network bandwidth (428 MB/s) being the limiting factor. This bandwidth is significantly greater than that of the Local Disk, which is capped at 276 MB/s.<br />
 Additionally, the latency aspect further supports this preference. The latency involved in accessing remote DRAM, even when factoring in network delays, is still less than that of accessing local disk storage. This combination of higher bandwidth and lower latency makes remote DRAM a more efficient choice for data access compared to relying on local disk resources.
-
-
-![image](https://github.com/ucy-cs452-sp24/hw1-GeorgeChorattas/blob/main/hierarchy/measures_graph.png?raw=true)
 
 
 
