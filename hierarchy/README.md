@@ -29,9 +29,7 @@ The findings from our analysis lead to a noteworthy conclusion regarding the eff
 Additionally, the latency aspect further supports this preference. The latency involved in accessing remote DRAM, even when factoring in network delays, is still less than that of accessing local disk storage. This combination of higher bandwidth and lower latency makes remote DRAM a more efficient choice for data access compared to relying on local disk resources.
 
 
-![image](https://github.com/ucy-cs452-sp24/hw1-GeorgeChorattas/assets/82320394/9af74cf8-d1dc-4a33-b200-38733fdca629)
-
-
+![image](https://github.com/ucy-cs452-sp24/hw1-GeorgeChorattas/hierarchy/measures_graph.png)
 
 
 
