@@ -13,7 +13,7 @@ The 2 nodes i used was type **c220g5** with the following characteristics :
 ### Gapicity (GB)
 Since we have 2 identical nodes of type **c220g5** the have the same campacities :
  1. Local DRAM : 187 GB
- 2. Local Disk : 480 GB
+ 2. Local Disk : 480 GB <br />
 Because we are not able to know how many nodes we have in each rack we can't calculate the Remote Capacity of DRAM and DISK so in the graph is set to the value of Local DRAM and Local Disk .
 
 ### Latency (us)
