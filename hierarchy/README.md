@@ -13,7 +13,9 @@ The 2 nodes i used was type **c220g5** with the following characteristics :
 ### Gapicity (GB)
 Since we have 2 identical nodes of type **c220g5** the have the same campacities :
  1. Local DRAM : 187 GB
- 2. Local Disk : 480 GB <br />Because we are not able to know how many nodes we have in each rack we can't calculate the Remote Capacity of DRAM and DISK so in the graph is set to the value of Local DRAM and Local Disk .
+ 2. Local Disk : 480 GB <br />
+ 
+Because we are not able to know how many nodes we have in each rack we can't calculate the Remote Capacity of DRAM and DISK so in the graph is set to the value of Local DRAM and Local Disk .
 
 ### Latency (us)
 The analysis of the graph clearly indicates that Local DRAM exhibits the lowest latency, recorded at a mere 0.0915 microseconds (us). This is in line with expectations given the inherent efficiency of Local DRAM. On the other hand, the latency of the Local Disk is significantly higher, at 247 us, which, while expected for Local Disk performance, is noteworthy. Upon further research, it was found that the One Intel DC S3500 480 GB 6G SATA SSD typically maintains low read latencies around 50us, only reaching a maximum of 500us in 99.9% of cases. This observation underscores the remarkable data reading efficiency of this disk.<br />
